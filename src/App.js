@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Home from "./components/home";
-import Projects from "./components/projects";
+import Home from "./components/home/home";
+// import Projects from "./components/projects";
 import Footer from "./components/Footer";
-import Resume from "./components/resume";
+// import Resume from "./components/resume";
+import About from "./components/About/About";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate
 } from "react-router-dom";
-import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -33,9 +33,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/project" element={<Projects />} />
+            {/* <Route path="/project" element={<Projects />} /> */}
             <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
+            {/* <Route path="/resume" element={<Resume />} /> */}
             <Route path="*" element={<Navigate to="/"/>} />
           </Routes>
           <Footer />

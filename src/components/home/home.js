@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Type from "./Type";
 
 function Home() {
     return (
@@ -13,7 +14,7 @@ function Home() {
                         </h1>
 
                         <h1 className="header-name">
-                            I'M Jonathan Torres
+                            I'm Jonathan Torres
                         </h1>
                         <div style={{ padding: "50px", textAlign: "left" }}>
                             <Type />

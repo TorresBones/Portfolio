@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -7,17 +7,20 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
-    const [navColor, update] = useState(false);
+    const [navColor, updateNavColor] = useState(false);
 
     function scrollHandler() {
-        if (window.scrolly >= 20) {
-            updateNavbar(true);
+        if (window.scrollY >= 20) {
+            updateNavColor(true);
         } else {
-            updateNavbar(false);
+            updateNavColor(false);
         }
     }
 
-    window.addEventListener("scroll". scrollHandler);
+    useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+}, []);
 
     return (
         <Navbar
