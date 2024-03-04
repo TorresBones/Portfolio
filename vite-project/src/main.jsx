@@ -1,46 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from './App.jsx';
-import './index.css'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import App from './App';
+import About from "./pages/About";
+import Home from "./pages/home";
+import Projects from "./pages/projects";
+import Resume from "./pages/resume";
+import Error from "./pages/Error";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import './index.css';
 
-import About from "./components/About";
-import home from "./components/home";
-import projects from "./components/projects";
-import resume from "./components/resume";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        path: "/",
-        element: <About />,
-      },
-      {
-        index: true,
-        path: "/About",
-        element: <About />,
-      },
-      {
-        path: "/projects",
-        element: <projects />
-      },
-      {
-        path: "/resume",
-        element: <resume />
-      },
-    ],
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Switch>
+        <Route path='/About' component={About} />
+        <Route path='/home' component={Home} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/resume' component={Resume} />
+        <Route component={Error} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
+  document.getElementById('root')
 );
