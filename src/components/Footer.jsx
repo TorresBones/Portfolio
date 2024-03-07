@@ -5,10 +5,11 @@ import {
     AiFillInstagram,
 } from "react-icons/ai";
 
+import "../styles/App.css";
+
 export default function Footer() {
     return (
         <footer>
-            <h4>Developed by Jonathan Torres Bones</h4>
                 <ul className="footer-icons">
                     <li className="socialmedia-icons" id="socialmediaicons">
                         <a
@@ -41,6 +42,7 @@ export default function Footer() {
                         </a>
                     </li>
                 </ul>
+            <h4>Developed by Jonathan Torres Bones</h4>
         </footer>
     );
 }

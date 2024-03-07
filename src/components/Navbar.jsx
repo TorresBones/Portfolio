@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-    const linkStyle = { border: "2px black", padding: "5px" };
+    const linkStyle = { border: "2px black", padding: "5px", textDecoration:"none" };
 
     return (
         <nav className="main-menu">
