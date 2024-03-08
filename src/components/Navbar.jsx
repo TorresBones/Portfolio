@@ -14,27 +14,24 @@ export default function Navbar() {
         }}>
             <div style={linkStyle}>
                 <Link
-                to="./About"
-                className={ ({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : "" }
+                to="/"
+                // activeclassName="active"
             >
             About
             </Link>
             </div>
             <div style={linkStyle}>
                 <Link
-                to="./projects"
-                className={ ({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : "" }
+                to="/projects"
+                // activeclassName="active"
             >
             Projects
             </Link>
             </div>
             <div style={linkStyle}>
                 <Link
-                to="./resume"
-                className={ ({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : "" }
+                to="/resume"
+                // activeclassName="active"
             >
             Resume
             </Link>

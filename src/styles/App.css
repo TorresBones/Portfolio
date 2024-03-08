@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  background-color: rgb(29, 43, 61);
+  background-color: #333;
   color: black;
   height:250px;
 }
@@ -64,11 +64,13 @@ a:visited {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
-  height: 75px;
   width: 100%;
-  background-color: rgb(29, 43, 61);
+  background-color: #333;
+  text-align: center;
+  padding: 20px 0;
 }
 
 footer h4 {

@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./pages/About.jsx";
 import Resume from "./pages/resume.jsx";
 import Error from "./pages/Error.jsx";
-import Projects from "./pages/projects.js";
+import Projects from "./pages/project.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,15 +19,14 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "/",
         element: <About />,
       },
       {
-        path: "/projects",
+        path: "projects",
         element: <Projects />
       },
       {
-        path: "/Resume",
+        path: "resume",
         element: <Resume />
       },
     ],
