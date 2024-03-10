@@ -1,0 +1,61 @@
+body, #root, html {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(0, 0, 72);
+}
+
+
+#aboutme {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 40px;
+  margin-bottom: 200px;
+  background-color: rgb(164, 195, 241);
+  border: 10px;
+  border-style: double;
+  border-color: black;
+  border-radius: 50px;
+}
+
+p {
+  margin: 25px;
+}
+
+#resume-container img{
+  align-items: center;
+  margin-top: 15px;
+  margin: 50px;
+}
+
+#resume-container h2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #aboutme {
+    margin: 20px; 
+    margin-bottom: 100px;
+  }
+  
+  p {
+    margin: 15px;
+  }
+  
+  #resume-container img {
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  #resume-container h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
