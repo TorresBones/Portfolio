@@ -86,3 +86,20 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  header #myImage {
+    width: 100px;
+  }
+  
+  nav {
+    font-size: 16px;
+  }
+}
