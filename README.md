@@ -1,23 +1,21 @@
 # React Portfolio
 
 ## Desription
-This is my professional portfolio created with React, it has an about me section in the homempage, a projects page that has all the projects Ive work on with a button to go into their pages and a resume page that has a screenshot of my resume with a button to download it. Also it has a social media icons in the footer that you are able to click on each one on them and go directly to my social media and contact me.
+This is my professional portfolio created with React. It features an about me section on the homepage, a projects page showcasing all the projects I've worked on, with a button to navigate to their individual pages, and a resume page displaying a screenshot of my resume with a download button. Additionally, it includes social media icons in the footer that allow users to directly access my social media profiles and contact me.
 
-## Colaborators
-- reactbbootstrap
-- Nelson Foster and Tom Woods (Teacher Assitant's)
+## Contributors
+- React Bootstrap
+- Nelson Foster and Tom Woods (Teacher Assistants)
 - Chat GPT
 - Class Material from Anthony Maddatu (Intuctor)
 
-## Screenshots, Live Link and Repo Link
 # Screenshots
 ![image](https://github.com/TorresBones/pro-portfolio/assets/143949132/6339188a-4b50-4581-b313-8c599845f6e6)
 ![image](https://github.com/TorresBones/pro-portfolio/assets/143949132/68e62c08-9f4e-42e8-99ff-fc4a82426423)
 ![image](https://github.com/TorresBones/pro-portfolio/assets/143949132/b69dafb7-73e4-44aa-bbe8-dc053c03a62b)
-# Repo Link
-https://github.com/TorresBones/pro-portfolio
-# Live Link
-
+## Links
+- Repository (https://github.com/TorresBones/pro-portfolio)
+- Live Link ()
 
 ## License
 
