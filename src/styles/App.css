@@ -7,6 +7,10 @@
 
   }
 
+  body {
+    background-color: rgb(0, 0, 72) !important;
+  }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -76,7 +80,7 @@ footer {
 footer h4 {
   font-size: 14px;
   text-align: center;
-  color: #fff;
+  color: white;
 }
 
 ul {

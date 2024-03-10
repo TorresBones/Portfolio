@@ -6,6 +6,9 @@ body, #root, html {
   background-color: rgb(0, 0, 72);
 }
 
+body {
+background-color: rgb(0, 0, 72) !important;
+}
 
 #aboutme {
   font-family: "Rubik", sans-serif;
@@ -14,7 +17,6 @@ body, #root, html {
   font-style: normal;
   text-align: center;
   margin: 40px;
-  margin-bottom: 200px;
   background-color: rgb(164, 195, 241);
   border: 10px;
   border-style: double;
