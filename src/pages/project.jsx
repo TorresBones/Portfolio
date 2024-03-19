@@ -12,7 +12,7 @@ export default function Projects () {
     }
   
     return (
-        <Stack gap={3} style={{ alignItems: "center" }}>
+        <Stack gap={3} style={{ alignItems: "center", marginBottom: "120px" }}>
         {projects.map( (project) => (
             <Card style={{ width: '70%', marginTop: '30px' }}>
             <Card.Img variant="top" src={project.image} />
