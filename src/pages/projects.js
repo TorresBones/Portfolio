@@ -11,6 +11,7 @@ import weatherapp from "../assets/imgs/weatherapp.JPG";
 import workdayscheduler from "../assets/imgs/workdayscheduler.JPG";
 import wfd from "../assets/imgs/whats-for-dinner-dinnerpage.png";
 import gameharbour from "../assets/imgs/gameharbour.JPG";
+import walletwatch from "../assets/imgs/walletwatch.png";
 
 const projects = [
     {
@@ -103,6 +104,13 @@ const projects = [
         image: gameharbour,
         description: "A web application that allows the user search for any videogame and returns all the information that we can save.",
         link: "https://game-harbour-123-8c07ddc3abc7.herokuapp.com/"
+    },
+    {
+        id: 14,
+        name: "Wallet Watch",
+        image: walletwatch,
+        description: "A web application that helps the user to budget successfully",
+        link: "https://wallet-watch-6ct1.onrender.com/"
     },
 ];
 
